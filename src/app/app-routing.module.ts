@@ -3,7 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { AuthLayoutComponent } from './layouts/auth-layout/auth-layout.component';
 import { MainLayoutComponent } from './layouts/main-layout/main-layout.component';
 import { LoginComponent } from './auth/login/login.component';
-import { AddCarComponent } from './cars/add-car/add-car.component';
+import { FormCarComponent } from './cars/form-car/form-car.component';
 import { ListCarComponent } from './cars/list-car/list-car.component';
 import { ExpensesComponent } from './expenses/expenses.component';
 import { RentalComponent } from './rental/rental.component';
@@ -21,7 +21,7 @@ const routes: Routes = [
     path: '',
     component: MainLayoutComponent,
     children: [
-      { path: 'add-car', component: AddCarComponent },
+      { path: 'add-car', component: FormCarComponent },
       { path: 'list-car', component: ListCarComponent },
       { path: 'expenses', component: ExpensesComponent },
       { path: 'rental', component: RentalComponent },

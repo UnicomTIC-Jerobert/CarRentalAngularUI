@@ -9,4 +9,16 @@ ng new --minimal --skip-tests --skip-install --standalone=false CarRentalAngular
 npm install
 ```
 
+```bash
+ng generate component shared/topbar
+ng generate component shared/footer
+```
 
+```bash
+ng generate component auth/login
+ng generate component cars/form-car
+ng generate component cars/list-car
+ng generate component expenses
+ng generate component rental
+
+```

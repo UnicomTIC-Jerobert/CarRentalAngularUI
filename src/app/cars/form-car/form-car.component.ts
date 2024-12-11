@@ -1,14 +1,14 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-add-car',
+  selector: 'app-form-car',
   template: `
     <p>
-      add-car works!
+      form-car works!
     </p>
   `,
   styles: ``
 })
-export class AddCarComponent {
+export class FormCarComponent {
 
 }
