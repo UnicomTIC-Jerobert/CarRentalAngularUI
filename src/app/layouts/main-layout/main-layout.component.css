@@ -32,10 +32,6 @@ app-topbar {
 app-footer {
     flex-shrink: 0;
     /* Prevent shrinking */
-    text-align: center;
-    padding: 10px 20px;
-    background-color: #34495e;
-    color: white;
     position: sticky;
     /* Sticks to the bottom of the layout */
     bottom: 0;
