@@ -12,7 +12,7 @@ npm install
 ```bash
 ng generate component layouts/auth-layout
 ng generate component layouts/main-layout
-```bash
+```
 
 ```bash
 ng generate component shared/topbar
